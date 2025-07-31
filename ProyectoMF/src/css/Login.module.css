@@ -1,0 +1,113 @@
+/* src/css/Login.module.css */
+
+.loginWrapper {
+  background: linear-gradient(to top, #1E88E5, #bebc19);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative; /* Necesario para posicionar los logos */
+}
+
+.container {
+  background-color: #F5F5F5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.title {
+  color: #00000094;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #BDC3C7;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.button {
+  width: 100%;
+  padding: 12px;
+  background-color: #e73e3ed2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 12px 0;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.button:hover {
+  background-color: #6ce651d2;
+}
+
+.error {
+  color: #E74C3C;
+  margin-top: 10px;
+}
+
+/* Posicionamiento de logos */
+.logoMF {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.logoAI {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.logoImg {
+  width: 150px;
+  height: 150px;
+}
+
+/* Estilo responsivo */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .input,
+  .button {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .logoImg {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+
+  .input,
+  .button {
+    font-size: 14px;
+    padding: 8px;
+    margin: 10px 0;
+  }
+
+  .logoImg {
+    width: 80px;
+    height: 80px;
+  }
+}

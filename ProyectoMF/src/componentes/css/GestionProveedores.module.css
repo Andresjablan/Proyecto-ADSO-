@@ -1,0 +1,69 @@
+.container {
+  padding: 2rem;
+   background: linear-gradient(to top, #7c1acb, #f1e915);
+  min-height: 100vh;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.mensaje {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.formulario {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.formulario input {
+  flex: 1 1 30%;
+  padding: 0.5rem;
+}
+
+.botones {
+  flex-basis: 100%;
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.botones button {
+  padding: 0.5rem 1rem;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.tabla th, .tabla td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.btnRegresar {
+  margin-top: 2rem;
+  background-color: #db0e67;
+  color: white;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

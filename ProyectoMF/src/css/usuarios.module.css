@@ -1,0 +1,132 @@
+/* general.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.user-list {
+  max-width: 95%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #3c3b3b10;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-list h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+thead {
+  background-color: #007bff;
+  color:  white;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #120101da;
+}
+
+tr:nth-child(even) {
+  background-color: #786a6a;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  margin: 2px;
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:nth-child(2) {
+  background-color: #dc3545;
+}
+
+button:nth-child(2):hover {
+  background-color: #a71d2a;
+}
+.gestion-container {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.usuarios-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.usuarios-table th,
+.usuarios-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.usuarios-table input,
+.usuarios-table select {
+  width: 100%;
+  padding: 4px;
+}
+
+button {
+  margin: 2px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+.mensaje {
+  color: green;
+  margin-bottom: 10px;
+}
+.btn-regresar {
+  margin-bottom: 15px;
+  background-color: #f0f0f0;
+  color: #333;
+  font-weight: bold;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  transition: background-color 0.2s ease;
+}
+
+.btn-regresar:hover {
+  background-color: #12d35c;
+}
+
+

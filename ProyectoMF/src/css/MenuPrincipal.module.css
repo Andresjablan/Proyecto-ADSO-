@@ -1,0 +1,39 @@
+
+.menuPrincipal {
+  position: relative;
+  min-height: 100vh;
+  background: linear-gradient(to top, #ce169a, #90CAF9);
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Logos en esquinas */
+.logoTopLeft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.logoBottomRight {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.logoImg {
+  width: 150px;
+  height: auto;
+  display: block;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .logoImg {
+    width: 100px;
+  }
+}

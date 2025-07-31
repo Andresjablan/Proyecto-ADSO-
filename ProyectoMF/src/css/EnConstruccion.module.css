@@ -1,0 +1,50 @@
+.enConstruccionContainer {
+  position: relative;
+  min-height: 100vh;
+  background: linear-gradient(to top, #f5f559, #2251df);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
+}
+
+.iconoConstruccion {
+  color: #facc15;
+  animation: bounce 1s infinite;
+  margin-bottom: 1.5rem;
+}
+
+.titulo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.descripcion {
+  font-size: 1.125rem;
+  color: #4b5563;
+  max-width: 500px;
+}
+
+.logoInferiorDerecho {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.logoImg {
+  width: 100px;
+  opacity: 0.8;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}

@@ -1,0 +1,39 @@
+.inventario {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: linear-gradient(to top, #4a148c, #90CAF9);
+  font-family: Arial, sans-serif;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* Asegura que el sidebar no se desborde */
+.inventario :global(.sidebar) {
+  flex-shrink: 0;
+}
+
+/* Logo inferior derecho */
+.logoBottomRight {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.logoImg {
+  width: 120px;
+  height: auto;
+  max-width: 100%;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .logoImg {
+    width: 90px;
+  }
+}

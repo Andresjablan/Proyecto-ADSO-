@@ -1,0 +1,116 @@
+.pageBackground {
+  background: linear-gradient(to top, #1644ce, #a0f990);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 20px;
+}
+
+.logoTopLeft {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.logoBottomRight {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.registroContainer {
+  width: 100%;
+  max-width: 480px;
+  max-height: 95vh;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.registroContainer h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.formScroll {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 5px;
+  margin-bottom: 10px;
+}
+
+.formGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.formGrid input,
+.formGrid select {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.buttonGroup {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buttonGroup button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttonGroup button:hover {
+  background-color: #0056b3;
+}
+
+.formScroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.formScroll::-webkit-scrollbar-thumb {
+  background-color: #bbb;
+  border-radius: 6px;
+}
+
+.mensaje {
+  margin-top: 10px;
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .registroContainer {
+    margin: 10px;
+    height: auto;
+    max-height: 95vh;
+  }
+
+  .logoTopLeft img,
+  .logoBottomRight img {
+    width: 80px;
+    height: 80px;
+  }
+}

@@ -1,0 +1,67 @@
+.salidaContainer {
+  max-width: 600px; 
+  margin: 2rem auto;
+  padding: 2rem;
+  background: linear-gradient(to top, #cd2536, #ed7c5c);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+}
+
+.formularioSalida {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.formularioSalida label {
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+
+.formularioSalida select,
+.formularioSalida input {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.formularioSalida button {
+  background-color: #76ce53;
+  color: rgb(19, 18, 18);
+  padding: 0.6rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.formularioSalida button:hover {
+  background-color: #dbe11d;
+}
+
+.mensaje {
+  margin-bottom: 1rem;
+  padding: 0.7rem;
+  border-radius: 6px;
+  background-color: #fee2e2;
+  color: #991b1b;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btnRegresar {
+  margin-top: 2rem;
+  background-color: #6b7280;
+  color: white;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.btnRegresar:hover {
+  background-color: #4b5563;
+}

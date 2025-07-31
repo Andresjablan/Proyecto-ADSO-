@@ -1,0 +1,80 @@
+.reporteContainer {
+  padding: 2rem;
+  background: linear-gradient(to top, #5973f5, #deea36);
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+.reporteContainer h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.reporteTabla {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.reporteTabla th,
+.reporteTabla td {
+  border: 1px solid #e2e8f0;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #2d3748;
+}
+
+.reporteTabla th {
+  background-color: #f0f4f8;
+  font-weight: 600;
+  color: #1a202c;
+  letter-spacing: 0.5px;
+}
+
+.reporteTabla tbody tr:hover {
+  background-color: #f7fafc;
+  transition: background-color 0.2s ease;
+}
+
+.btnRegresar {
+  margin-top: 2rem;
+  padding: 0.6rem 1.5rem;
+  background-color: #ffffff;
+  color: #db0e67;
+  border: 2px solid #ffffff;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.2s ease;
+}
+
+.btnRegresar:hover {
+  background-color: #db0e67;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.btnPDF {
+  margin-top: 1rem;
+  background-color: #4caf50;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btnPDF:hover {
+  background-color: #45a049;
+}
